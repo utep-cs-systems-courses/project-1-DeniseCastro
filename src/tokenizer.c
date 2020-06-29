@@ -121,7 +121,7 @@ char** tokenize(char* str){
 /* Prints all tokens. */
 void print_tokens(char **tokens){
   do{
-    printf("%s\n", *tokens);
+    puts(*tokens);
     *tokens++;
   }while(*tokens != 0);
   
