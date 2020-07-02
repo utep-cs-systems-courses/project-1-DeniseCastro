@@ -5,7 +5,7 @@ This program is a string tokenizer. That include tokenizer.c and history.c
   
 Tokenizer.c takes a string of words and allocates each word as tokens.  
 Includes methods:   
-	* space_char(char)	Returns true if passed a whitespace
+     * space_char(char)	Returns true if passed a whitespace
 	 character.  
 	 * non_space_char(char)	 Returns true if passsed a non-whitespace
 	 character.  
@@ -25,8 +25,8 @@ item. It defines the basic methods of this list that keeps a history of
 items.  
 Includes methods:  
 	 * init_history()	Initializes the linked list.  
-	 * add_history(List*, char*)	    Adds Item to the end of the list.
+	 * add_history(List*, char*)	    Adds Item to the end of the list.  
 	 * get_history(List*, int)	    Gets the string stored in the
-	 node where Item id matches passed int.
+	 node where Item id matches passed int.  
 	 * print_history(List*) 	      Prints entire content of list.  
 	 * free_history(List*)	      Free the history list.  
